@@ -7,8 +7,16 @@ Integrated Development Environment (IDE):
 - Choose an IDE such as IntelliJ IDEA, Eclipse, or Spring Tool Suite (STS).
 Build Tool:
 
-- Use Maven or Gradle for dependency management and building the project. Make sure the build tool is installed and configured.
+- Use Maven for dependency management and building the project. Make sure the build tool is installed and configured.
 
 - Navigate to main/java/com.example.receiptprocessor to run project from ReceiptProcessorApplication
 
 - After running the application it should start up on port 8080
+
+
+## Endpoints
+- Method `Post`
+- `localhost:8080/receipts/process`
+
+- Method `Get`
+- `localhost:8080/receipts/{id}/points`
