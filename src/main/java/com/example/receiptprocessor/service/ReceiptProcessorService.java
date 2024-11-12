@@ -99,6 +99,6 @@ public class ReceiptProcessorService {
     }
 
     public PointsDTO getRetailerPoints(String id){
-        return pointDTOMapper.apply(receiptProcessorRepository.getById(id));
+        return pointDTOMapper.apply(receiptProcessorRepository.getReferenceById(id));
     }
 }

@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/receipts")
+@RequestMapping("/api/receipts")
 public class ReceiptProcessorController {
     private final ReceiptProcessorService receiptProcessorService;
 
